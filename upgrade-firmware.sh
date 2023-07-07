@@ -82,9 +82,9 @@ then
     if [[ $upgrade_yn0 =~ ^[Yy]$ ]] ;
     then
         # Debian 12
-        if [[ $os_release == *"Debian GNU/Linux 12 (bookworm)"* ]];
+        if [[ $os_release == *"Debian GNU/Linux"* ]];
         then
-            echo "Debian 12 was detected, upgrading......"
+            echo "Debian GNU/Linux was detected, upgrading......"
             upgrade_through_debian12
         # Other distros will be added by you. (^_^)
         else
